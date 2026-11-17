@@ -8,7 +8,7 @@
 
 Build dashboards, SaaS consoles, and internal tools with React, TypeScript, Vite, and Tailwind CSS. **Free and open source. MIT licensed.**
 
-[Website](https://tailtheme.dev) · [Live demo](https://tailtheme-demo.ezway.tech) · [Figma](https://www.figma.com/design/OjGoqhtHI9gzspszsDQ7Va/TailTheme-Web) · [Full edition](https://github.com/ezway-tech/tailtheme-reactjs-full)
+[Website](https://tailtheme.ezway.tech/) · [Live demo](https://tailtheme-demo.ezway.tech) · [Figma](https://www.figma.com/design/OjGoqhtHI9gzspszsDQ7Va/TailTheme-Web) · [Full edition](https://github.com/ezway-tech/tailtheme-reactjs-full)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev)
@@ -142,6 +142,6 @@ See [`LICENSE`](LICENSE). Third-party notices: [`THIRD_PARTY_NOTICES.md`](THIRD_
 
 <div align="center">
 
-Built by **Ezway Tech** · [Website](https://tailtheme.dev) · [Figma](https://www.figma.com/design/OjGoqhtHI9gzspszsDQ7Va/TailTheme-Web) · [MIT License](LICENSE)
+Built by **Ezway Tech** · [Website](https://tailtheme.ezway.tech/) · [Figma](https://www.figma.com/design/OjGoqhtHI9gzspszsDQ7Va/TailTheme-Web) · [MIT License](LICENSE)
 
 </div>
