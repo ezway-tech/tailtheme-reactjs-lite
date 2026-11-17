@@ -1,12 +1,14 @@
 <div align="center">
 
-<img src="public/tailtheme.png" alt="TailTheme logo" width="72" height="72" />
+![TailTheme — design system and dashboard overview](./banner.png)
 
 # TailTheme React Lite
 
-Open-source React admin template with TailTheme’s Free-scope shell, dashboards, and sample pages.
+**Start with focused dashboards, useful product pages, and the same TailTheme design system.**
 
-[Website](https://tailtheme.dev) · [Figma](https://www.figma.com/design/OjGoqhtHI9gzspszsDQ7Va/TailTheme-Web) · [Full](../tailtheme-reactjs-full)
+Build dashboards, SaaS consoles, and internal tools with React, TypeScript, Vite, and Tailwind CSS. **Free and open source. MIT licensed.**
+
+[Website](https://tailtheme.dev) · [Live demo](https://tailtheme-demo.ezway.tech) · [Figma](https://www.figma.com/design/OjGoqhtHI9gzspszsDQ7Va/TailTheme-Web) · [Full edition](https://github.com/ezway-tech/tailtheme-reactjs-full)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)](https://react.dev)
@@ -15,13 +17,17 @@ Open-source React admin template with TailTheme’s Free-scope shell, dashboards
 
 </div>
 
+<sub>Original TailTheme brand preview. The image shows the wider design collection; the features included in this React Lite edition are listed below.</sub>
+
+---
+
 ## Overview
 
 **TailTheme React Lite** is a focused MIT edition of TailTheme: Vite, React 19, TypeScript, and Tailwind CSS v4, with dashboards, SaaS/Project samples, and a UI docs subset.
 
 Auth and sample data screens are **frontend demos** — no backend or TailTheme commerce API is required to run the UI locally.
 
-This is the public Lite edition (Free-scope pages and shell). It is **not** the separate `minimal` Home/Form starter from Full’s `create:project` exporter.
+Keep the TailTheme look and feel with a smaller selection of pages. Add more components from Full whenever your project needs them.
 
 ## Lite or Full?
 
@@ -35,18 +41,25 @@ Both editions are **free**, **MIT**, and share the same design system. They diff
 
 This repository is **generated** from Full (`npm run sync:lite`). Prefer pull requests against **tailtheme-reactjs-full** for shared components and tokens.
 
-## What's included
+## 📦 What's included
 
-- App shell with sidebar, header utilities, theming, and i18n
-- Overview, SaaS, and Project dashboards
-- SaaS and Project sample pages (analytics, members, kanban, tasks, …)
-- UI docs subset (tokens, core components, examples)
-- Auth, settings, profile, landing, and pricing sample screens (UI only)
-- Semantic design tokens in `src/styles/globals.css`
+| Area                 | What you get                                                                    |
+| -------------------- | ------------------------------------------------------------------------------- |
+| **Dashboards**       | Overview, SaaS, and Project dashboards                                          |
+| **Product pages**    | SaaS analytics, members and calendar; project boards, project details and tasks |
+| **UI components**    | Core primitives, form controls, feedback, tables, and component examples        |
+| **App shell**        | Responsive navigation, breadcrumbs, command palette, and header utilities       |
+| **Appearance**       | Semantic design tokens, light/dark themes, and theme preferences                |
+| **Account screens**  | Authentication, profile, and settings examples                                  |
+| **Design resources** | Figma foundations and reference components                                      |
 
-## Quick start
+> Authentication and sample data are frontend demonstrations. Connect your own backend for a real application.
 
-Requires **Node.js 18+** (Vite 6) and npm.
+---
+
+## 🚀 Quick start
+
+Use **Node.js 22 LTS** and npm.
 
 ```bash
 npm install
@@ -81,7 +94,7 @@ npm run build
 3. Match dependency versions from Full’s `package.json`.
 4. Import and use the component in Lite.
 
-## Documentation
+## 📖 Documentation
 
 | Doc                                                | Description                                                                |
 | -------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -91,11 +104,11 @@ npm run build
 
 In-app UI pages (after `npm run dev`): under `/app/ui` — app routes, not GitHub paths.
 
-## Figma
+## 🎨 Figma
 
 Design file: [TailTheme Web](https://www.figma.com/design/OjGoqhtHI9gzspszsDQ7Va/TailTheme-Web)
 
-Foundations and reference components for TailTheme Web. Pixel-perfect parity with every screen is **not** claimed. Public view/duplicate access: confirm in Figma. Detailed notes live in Full: `docs/figma-tailtheme-web.md`.
+Explore TailTheme foundations, theme variables, and reference components. Read the [Figma guide](https://github.com/ezway-tech/tailtheme-reactjs-full/blob/main/docs/figma-tailtheme-web.md) for the design-to-code workflow.
 
 ## Scripts
 
@@ -113,7 +126,7 @@ Foundations and reference components for TailTheme Web. Pixel-perfect parity wit
 
 Shared UI, tokens, and patterns belong in **tailtheme-reactjs-full**. This Lite repo is regenerated with `npm run sync:lite` — prefer PRs against Full so changes stay regeneratable.
 
-## Support the project
+## ☕ Support the project
 
 TailTheme is free and open source. If it saves you time, consider supporting its maintenance. Starring the repository, reporting bugs, improving the docs, and sharing it also help.
 
@@ -124,3 +137,11 @@ TailTheme is free and open source. If it saves you time, consider supporting its
 MIT — Copyright (c) 2026 **Ezway Tech**. TailTheme is the product name.
 
 See [`LICENSE`](LICENSE). Third-party notices: [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
+
+---
+
+<div align="center">
+
+Built by **Ezway Tech** · [Website](https://tailtheme.dev) · [Figma](https://www.figma.com/design/OjGoqhtHI9gzspszsDQ7Va/TailTheme-Web) · [MIT License](LICENSE)
+
+</div>
